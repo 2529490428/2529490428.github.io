@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>cd crunch</title>    
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style type="text/css">
+        .carousel-inner .item{ height: 350px; background-color: #f2dede; }
+        .navbar-brand{ padding:10px 15px; }
+    </style>
+</head>
+<body>
+
+<!--     <div class="container">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+           
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="Logo" style="width:30px;"></a>
+            </div>
+
+
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">关于亿诺<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">联系亿诺</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/banner1.jpg"  alt="First slide">
+                <div class="carousel-caption">
+                  亿诺前金一诺千金
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/banner1.jpg"  alt="First slide">
+                <div class="carousel-caption">
+                  亿诺前金一诺千金
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/banner1.jpg"  alt="First slide">
+                <div class="carousel-caption">
+                  亿诺前金一诺千金
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+                  <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+                  <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+                  <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+                </ul>
+          </div>
+          <div class="col-sm-6">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+                  <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+                  <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+                  <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+                </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/timg.jpg" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Ghost 是基于 Node.js 的开源博客平台，由前 WordPress UI 部门主管 John O’Nolan 和 WordPress 高级工程师（女） Hannah Wolfe 创立，目的是为了给用户提供一种更加纯粹的内容写作与发布平台。</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+    </div> -->
+
+
+    <input type="file" id="capture" accept="image/*; capture=camera" style="visibility:hidden;" />
+
+
+
+
+
+<div>
+  EXAMPLE 1
+  <form action="server.cgi" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*" capture="user">
+    <input type="submit" value="Upload">
+  </form>
+</div>
+<div>
+  EXAMPLE 2
+  <form action="server.cgi" method="post" enctype="multipart/form-data">
+    <input type="file" name="video" accept="video/*" capture="environment">
+    <input type="submit" value="Upload">
+  </form>
+</div>
+
+<div>
+  EXAMPLE 3
+  <form action="server.cgi" method="post" enctype="multipart/form-data">
+    <input type="file" name="audio" accept="audio/*" capture>
+    <input type="submit" value="Upload">
+  </form>
+</div>
+
+<div id="takePhoto" onclick="scope.snap">拍照</div>
+<div>
+  
+  EXAMPLE 4
+  <input type="file" accept="image/*" capture>
+  <canvas></canvas>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  var input = document.querySelector('input[type=file]'); // see Example 4
+
+  input.onchange = function () {
+    var file = input.files[0];
+
+    upload(file);
+    drawOnCanvas(file);   // see Example 6
+    displayAsImage(file); // see Example 7
+  };
+
+  function upload(file) {
+    var form = new FormData(),
+        xhr = new XMLHttpRequest();
+
+    form.append('image', file);
+    xhr.open('post', 'server.php', true);
+    xhr.send(form);
+  }
+
+  function displayAsImage(file) {
+    var imgURL = URL.createObjectURL(file),
+        img = document.createElement('img');
+
+    img.onload = function() {
+      URL.revokeObjectURL(imgURL);
+    };
+
+    img.src = imgURL;
+    document.body.appendChild(img);
+  }    
+
+  function drawOnCanvas(file) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      var dataURL = e.target.result,
+          c = document.querySelector('canvas'), // see Example 4
+          ctx = c.getContext('2d'),
+          img = new Image();
+
+      img.onload = function() {
+        c.width = img.width;
+        c.height = img.height;
+        ctx.drawImage(img, 0, 0);
+      };
+
+      img.src = dataURL;
+    };
+
+    reader.readAsDataURL(file);
+  }
+
+var scope={};
+
+scope.photoErr = false;
+scope.photoBtnDiable = true;
+var mediaStream = null,track = null;
+
+navigator.getMedia = (navigator.getUserMedia ||
+                      navigator.webkitGetUserMedia || navigator.mozGetUserMedia ||
+                      navigator.msGetUserMedia);
+if (navigator.getMedia) {
+    navigator.getMedia(
+   {
+       video: true
+   },
+   // successCallback
+   function (stream) {
+    alert(stream)
+       var s = window.URL.createObjectURL(stream);
+       var video = document.getElementById('video');
+       video.src = window.URL.createObjectURL(stream);
+       mediaStream = stream;
+       track = stream.getTracks()[0];
+       scope.photoBtnDiable = false;               scope.$apply();
+   },
+   // errorCallback
+   function (err) {
+       //scope.errorPhoto();
+       console.log("The following error occured:" + err);
+   });
+      } else {
+    scope.errorPhoto();
+}
+
+
+scope.snap = function () {
+        var canvas = document.createElement('canvas');
+            canvas.width = "400";
+            canvas.height = "304";
+
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(video, 0, 0, 400, 304);
+            scope.closeCamera();
+            
+
+        var img = document.createElement('img');
+
+            img.src=canvas.toDataURL("image/png");
+            window.document.body.appendChild(img);
+
+};
+
+
+scope.closeCamera = function () {
+            if (mediaStream != null) {
+                if (mediaStream.stop) {
+                    mediaStream.stop();
+                }
+                scope.videosrc = "";
+            }
+            if (track != null) {
+                if (track.stop) {
+                    track.stop();
+                }
+            }
+        }
+document.getElementById("takePhoto").addEventListener("click", function(){
+    scope.snap()
+});
+        
+</script>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function(){
+              $('#carousel-example-partner').carousel({
+                interval: 3000
+              });            
+        })
+    </script>
+</body>
+</html>
